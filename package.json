@@ -6,6 +6,7 @@
     "start": "nodemon bin/www"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -13,5 +14,8 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
   }
 }
